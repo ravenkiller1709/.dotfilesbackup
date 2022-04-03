@@ -1,0 +1,142 @@
+Config { 
+
+   -- appearance
+     font =         "xft:Hack Nerd Font:size=10:bold:antialias=true"
+   , additionalFonts = ["xft:Hack Nerd Font:pixelsize=12:antialias=true"]
+   , bgColor =      "#282C34"
+   , fgColor =      "#BBC2CF"
+   , position =     Top
+   , border =       BottomB
+   , borderColor =  "#646464"
+   , iconRoot = ".xmonad/"
+
+   -- layout
+   , sepChar =  "%"   -- delineator between plugin names and straight text
+   , alignSep = "}{"  -- separator between left-right alignment
+   , template = "<icon=haskell_20.xpm/> | %UnsafeXMonadLog% }{ %dynnetwork% | %mpris2% | %mpd% | %battery% | %post% | %EKCH% | %date% "
+
+   -- general behavior
+   , lowerOnStart =     True    -- send to bottom of window stack on start
+   , hideOnStart =      False   -- start with window unmapped (hidden)
+   , allDesktops =      True    -- show on all desktops
+   , overrideRedirect = True    -- set the Override Redirect flag (Xlib)
+   , pickBroadest =     False   -- choose widest display (multi-monitor)
+   , persistent =       True    -- enable/disable hiding (True = disabled)
+
+   -- plugins
+   --   Numbers can be automatically colored according to their value. xmobar
+   --   decides color based on a three-tier/two-cutoff system, controlled by
+   --   command options:
+   --     --Low sets the low cutoff
+   --     --High sets the high cutoff
+   --
+   --     --low sets the color below --Low cutoff
+   --     --normal sets the color between --Low and --High cutoffs
+   --     --High sets the color above --High cutoff
+   --
+   --   The --template option controls how the plugin is displayed. Text
+   --   color can be set by enclosing in <fc></fc> tags. For more details
+   --   see http://projects.haskell.org/xmobar/#system-monitor-plugins.
+
+    -- weather monitor
+    , commands = [ 
+          -- Run Weather "EKCH"
+          --                  [ "--template", "<fc=#8ABEB7></fc> <tempC>°C <fc=#B294BB>  </fc> <windMs> ms <fc=#81A2BE>(<skyCondition>)</fc>"
+          --                  , "-L", "0"
+          --                  , "-H", "25"
+          --                  , "--low"   , "lightblue"
+          --                  , "--normal", "#f8f8f2"
+          --                  , "--high"  , "red"
+          --                  ] 360
+          Run WeatherX "EKCH"
+          [ ("clear", "<fc=#DE935F> </fc>")
+          , ("sunny", "<fc=#DE935F> </fc>")
+          , ("mostly clear", "<fc=#DE935F> </fc>")
+          , ("mostly sunny", "<fc=#DE935F> </fc>")
+          , ("partly sunny", "<fc=#DE935F>⛅ </fc>")
+          , ("fair", "<fc=#DE935F> </fc>")
+          , ("cloudy","<fc=#B294BB> </fc>")
+          , ("overcast","<fc=#B294BB> </fc>") 
+          , ("partly cloudy", "<fc=#81A2BE>⛅ </fc>")
+          , ("mostly cloudy", "<fc=#81A2BE> </fc>")
+          , ("considerable cloudiness", "<fc=#81A2BE> </fc>")]
+          ["-t", "<fn=2><skyConditionS></fn> <tempC>° <fc=#B294BB><rh></fc>%<fc=#8ABEB7>  </fc> <windMs>ms (<fc=#B5BD68><hour></fc>)"
+          , "-L","10", "-H", "25", "--normal", "black"
+          , "--high", "lightgoldenrod4", "--low", "darkseagreen4"]
+          18000
+        , Run Com ".local/bin/weather-xmobar.py" [] "weather" 36000
+        , Run Com ".scripts/post" [] "post" 120
+        , Run Com ".scripts/batteri" [] "bat" 120
+        , Run Com ".scripts/mpd" [] "mpd2" 10
+        , Run Com ".scripts/player.py" [] "player" 360
+
+        , Run MPD              [ "-t",
+                                 "<fc=#81A2BE> </fc> <artist><composer><title>",
+                                 "--", "-P", ">>", "-Z", "|", "-S", "><"] 10
+
+        , Run Mpris2 "spotify" [  "-t", "<fc=#1ED760>  </fc> <artist> - [<composer>] <title>", "-x","<fc=#1ED760> </fc>" 
+                               ] 10
+        -- network activity monitor (dynamic interface resolution)
+        , Run DynNetwork       [ "--template" , "<fc=#F0C674>   </fc><dev>: <tx>kB/s|<rx>kB/s"
+                                , "--Low"      , "1000"       -- units: B/s
+                                , "--High"     , "5000"       -- units: B/s
+                                , "--low"      , "#5E8D87"
+                                , "--normal"   , "#DE935F"
+                                , "--high"     , "#A54242"
+                               ] 10
+
+        -- cpu activity monitor
+        , Run MultiCpu       [ "--template" , "Cpu: <total0>%|<total1>%"
+                             , "--Low"      , "50"         -- units: %
+                             , "--High"     , "85"         -- units: %
+                             , "--low"      , "#5E8D87"
+                             , "--normal"   , "#DE935F"
+                             , "--high"     , "#A54242"
+                             ] 10
+
+        -- cpu core temperature monitor
+        , Run CoreTemp       [ "--template" , "Temp: <core0>°C|<core1>°C"
+                             , "--Low"      , "70"        -- units: °C
+                             , "--High"     , "80"        -- units: °C
+                             , "--low"      , "darkgreen"
+                             , "--normal"   , "darkorange"
+                             , "--high"     , "darkred"
+                             ] 50
+                          
+        -- memory usage monitor
+        , Run Memory         [ "--template" ,"Mem: <usedratio>%"
+                             , "--Low"      , "20"        -- units: %
+                             , "--High"     , "90"        -- units: %
+                             , "--low"      , "darkgreen"
+                             , "--normal"   , "darkorange"
+                             , "--high"     , "darkred"
+                             ] 10
+
+        -- battery monitor
+        , Run BatteryP    ["BAT0", "BAT1"]
+                             [ "--template", "<fc=#8ABEB7>  </fc><acstatus>"
+                     
+                             , "--Low"      , "10"        -- units: %
+                             , "--High"     , "80"        -- units: %
+                             , "--low"      , "#cc6666"
+                             , "--normal"   , "#8C9440"
+                             , "--high"     , "#5E8D87"
+
+                             , "--" -- battery specific options
+                                -- discharging status
+                              , "-o"	, "<left>% (<timeleft>)"
+                                -- AC "on" status
+                              , "-O"	, "<fc=#944C50>  </fc>"
+                                -- charged status
+                              , "-i"	, "<fc=#60754D>  </fc>"
+                             ] 50
+
+        -- time and date indicator 
+        --   (%F = y-m-d date, %a = day of week, %T = h:m:s time)
+        , Run Date           "%d/%m <fc=#cc6666> </fc> %H:%M" "date" 10
+
+        -- keyboard layout indicator
+        
+        , Run UnsafeXMonadLog
+        ]
+       } 

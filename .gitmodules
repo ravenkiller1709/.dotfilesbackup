@@ -1,0 +1,3 @@
+[submodule "emacs/elpa/vterm-20211226.817/build/libvterm-prefix/src/libvterm"]
+	path = emacs/elpa/vterm-20211226.817/build/libvterm-prefix/src/libvterm
+	url = https://github.com/neovim/libvterm.git

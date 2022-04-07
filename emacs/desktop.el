@@ -129,6 +129,10 @@
 
 (setq exwm-input-global-keys
       `(
+	  (,(kbd "s-<up>") . windmove-up)
+          (,(kbd "s-<down>") . windmove-down)
+          (,(kbd "s-<left>") . windmove-left)
+	  (,(kbd "s-<right>") . windmove-right)
         ;; Bind "s-r" to exit char-mode and fullscreen mode.
         ([?\s-r] . exwm-reset)
         ;; Bind "s-w" to switch workspace interactively.
@@ -144,7 +148,7 @@
         
         ;; Bind window movement keys to arrowkeys
 	
-
+       
         ;; Bind "s-d" to launch applications ('M-&' also works if the output
         ;; buffer does not bother you).
         ([?\s-d] . (lambda (command)
@@ -153,7 +157,8 @@
 	;; Bind "s-b" to launch firefox
 	([?\s-b] . (lambda ()
 		     (interactive)
-		     (start-process "" nil "/usr/local/bin/firefox")))
+		     (start-process "" nil "/usr/bin/firefox")))
+
         ;; Bind "s-<f2>" to "slock", a simple X display locker.
         ([s-f2] . (lambda ()
 		    (interactive)

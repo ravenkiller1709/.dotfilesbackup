@@ -5,7 +5,7 @@
 source ~/.config/zsh/.zprofile
 PATH=$PATH:$HOME/.scripts
 export EDITOR='emacs'
-export TERMINAL='st'
+export TERMINAL='alacritty'
 export BROWSER='firefox'
 export MANPAGER='emacs +Man!'
 export PATH=$HOME/.local/bin:$PATH
@@ -115,8 +115,8 @@ ncmpcppShow() {
 zle -N ncmpcppShow
 bindkey '^[\' ncmpcppShow
 
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # enabling vim mode
 bindkey -v

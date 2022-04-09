@@ -1,4 +1,4 @@
-;;; magit-section-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
+;;; magit-section-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
 
@@ -6,14 +6,19 @@
                          (or (file-name-directory #$) (car load-path))))
 
 
-;;;### (autoloads nil "magit-section" "magit-section.el" (0 0 0 0))
-;;; Generated autoloads from magit-section.el
+;;;### (autoloads "actual autoloads are elsewhere" "magit-section"
+;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/magit-section-20220329.1154/magit-section.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/magit-section-20220329.1154/magit-section.el
 
-(register-definition-prefixes "magit-section" '("isearch-clean-overlays@magit-mode" "magit-"))
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "magit-section" '("isearch-clean-overlays@magit-mode" "magit-")))
 
 ;;;***
 
-;;;### (autoloads nil nil ("magit-section-pkg.el") (0 0 0 0))
+;;;### (autoloads nil nil ("../../../../../../../home/kim/.config/emacs/elpa/magit-section-20220329.1154/magit-section-autoloads.el"
+;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/magit-section-20220329.1154/magit-section-pkg.el"
+;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/magit-section-20220329.1154/magit-section.el")
+;;;;;;  (0 0 0 0))
 
 ;;;***
 

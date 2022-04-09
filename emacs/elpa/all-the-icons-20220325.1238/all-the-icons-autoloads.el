@@ -1,4 +1,4 @@
-;;; all-the-icons-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
+;;; all-the-icons-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
 
@@ -6,8 +6,9 @@
                          (or (file-name-directory #$) (car load-path))))
 
 
-;;;### (autoloads nil "all-the-icons" "all-the-icons.el" (0 0 0 0))
-;;; Generated autoloads from all-the-icons.el
+;;;### (autoloads nil "all-the-icons" "../../../../../../../home/kim/.config/emacs/elpa/all-the-icons-20220325.1238/all-the-icons.el"
+;;;;;;  "d5d11f286ed7262c56f1bcec27293274")
+;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/all-the-icons-20220325.1238/all-the-icons.el
 
 (autoload 'all-the-icons-icon-for-dir "all-the-icons" "\
 Get the formatted icon for DIR.
@@ -56,12 +57,22 @@ When Prefix ARG is non-nil, insert the propertized icon.
 When FAMILY is non-nil, limit the candidates to the icon set matching it.
 
 \(fn &optional ARG FAMILY)" t nil)
+
+;;;### (autoloads "actual autoloads are elsewhere" "all-the-icons"
+;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/all-the-icons-20220325.1238/all-the-icons.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/all-the-icons-20220325.1238/all-the-icons.el
 
-(register-definition-prefixes "all-the-icons" '("all-the-icons-"))
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "all-the-icons" '("all-the-icons-")))
+
+;;;***
 
 ;;;***
 
-;;;### (autoloads nil nil ("all-the-icons-faces.el" "all-the-icons-pkg.el")
+;;;### (autoloads nil nil ("../../../../../../../home/kim/.config/emacs/elpa/all-the-icons-20220325.1238/all-the-icons-autoloads.el"
+;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/all-the-icons-20220325.1238/all-the-icons-faces.el"
+;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/all-the-icons-20220325.1238/all-the-icons-pkg.el"
+;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/all-the-icons-20220325.1238/all-the-icons.el")
 ;;;;;;  (0 0 0 0))
 
 ;;;***

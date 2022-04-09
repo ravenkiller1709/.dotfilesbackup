@@ -1,4 +1,4 @@
-;;; vterm-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
+;;; vterm-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
 
@@ -6,8 +6,9 @@
                          (or (file-name-directory #$) (car load-path))))
 
 
-;;;### (autoloads nil "vterm" "vterm.el" (0 0 0 0))
-;;; Generated autoloads from vterm.el
+;;;### (autoloads nil "vterm" "../../../../../../../home/kim/.config/emacs/elpa/vterm-20211226.817/vterm.el"
+;;;;;;  "362851689dacbb833f15e34e2bce03d3")
+;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/vterm-20211226.817/vterm.el
 
 (autoload 'vterm-module-compile "vterm" "\
 Compile vterm-module." t nil)
@@ -66,12 +67,21 @@ The buffer name used for Vterm sessions is determined by the
 value of `vterm-buffer-name'.
 
 \(fn &optional ARG)" t nil)
+
+;;;### (autoloads "actual autoloads are elsewhere" "vterm" "../../../../../../../home/kim/.config/emacs/elpa/vterm-20211226.817/vterm.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/vterm-20211226.817/vterm.el
 
-(register-definition-prefixes "vterm" '("vterm-"))
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "vterm" '("vterm-")))
+
+;;;***
 
 ;;;***
 
-;;;### (autoloads nil nil ("vterm-pkg.el") (0 0 0 0))
+;;;### (autoloads nil nil ("../../../../../../../home/kim/.config/emacs/elpa/vterm-20211226.817/vterm-autoloads.el"
+;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/vterm-20211226.817/vterm-pkg.el"
+;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/vterm-20211226.817/vterm.el")
+;;;;;;  (0 0 0 0))
 
 ;;;***
 

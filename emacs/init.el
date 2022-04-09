@@ -116,7 +116,7 @@
 ;; (doom-themes-visual-bell-config)
 
 ;; Enable custom neotree theme
-(doom-themes-neotree-config)  ; all-the-icons fonts must be installed!
+;; (doom-themes-neotree-config)  ; all-the-icons fonts must be installed!
 
 
 (use-package doom-modeline
@@ -272,6 +272,8 @@
 ;;;;;;;; Dired MODE
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+(cond ((eq system-type 'berkeley-unix)
+          (setq insert-directory-program "/usr/local/bin/gls")))
 
 (use-package dired
   :ensure nil

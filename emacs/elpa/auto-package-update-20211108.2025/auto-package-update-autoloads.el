@@ -6,9 +6,9 @@
                          (or (file-name-directory #$) (car load-path))))
 
 
-;;;### (autoloads nil "auto-package-update" "../../../../../../../home/kim/.config/emacs/elpa/auto-package-update-20211108.2025/auto-package-update.el"
+;;;### (autoloads nil "auto-package-update" "../../../../.config/emacs/elpa/auto-package-update-20211108.2025/auto-package-update.el"
 ;;;;;;  "e9382ea4b959a9ff1b1d6211727524df")
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/auto-package-update-20211108.2025/auto-package-update.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/auto-package-update-20211108.2025/auto-package-update.el
 
 (autoload 'auto-package-update-now "auto-package-update" "\
 Update installed Emacs packages.
@@ -32,9 +32,9 @@ Update installed Emacs packages if at least
 update." nil nil)
 
 ;;;### (autoloads "actual autoloads are elsewhere" "auto-package-update"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/auto-package-update-20211108.2025/auto-package-update.el"
+;;;;;;  "../../../../.config/emacs/elpa/auto-package-update-20211108.2025/auto-package-update.el"
 ;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/auto-package-update-20211108.2025/auto-package-update.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/auto-package-update-20211108.2025/auto-package-update.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "auto-package-update" '("apu--" "auto-package-")))
 
@@ -42,8 +42,8 @@ update." nil nil)
 
 ;;;***
 
-;;;### (autoloads nil nil ("../../../../../../../home/kim/.config/emacs/elpa/auto-package-update-20211108.2025/auto-package-update-autoloads.el"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/auto-package-update-20211108.2025/auto-package-update.el")
+;;;### (autoloads nil nil ("../../../../.config/emacs/elpa/auto-package-update-20211108.2025/auto-package-update-autoloads.el"
+;;;;;;  "../../../../.config/emacs/elpa/auto-package-update-20211108.2025/auto-package-update.el")
 ;;;;;;  (0 0 0 0))
 
 ;;;***

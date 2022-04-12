@@ -6,9 +6,9 @@
                          (or (file-name-directory #$) (car load-path))))
 
 
-;;;### (autoloads nil "with-editor" "../../../../../../../home/kim/.config/emacs/elpa/with-editor-20220402.1641/with-editor.el"
+;;;### (autoloads nil "with-editor" "../../../../.config/emacs/elpa/with-editor-20220402.1641/with-editor.el"
 ;;;;;;  "f72fb3c2983077d5715dc002142c3fe4")
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/with-editor-20220402.1641/with-editor.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/with-editor-20220402.1641/with-editor.el
 
 (autoload 'with-editor-export-editor "with-editor" "\
 Teach subsequent commands to use current Emacs instance as editor.
@@ -86,9 +86,9 @@ else like the former.
 \(fn COMMAND &optional OUTPUT-BUFFER ERROR-BUFFER ENVVAR)" t nil)
 
 ;;;### (autoloads "actual autoloads are elsewhere" "with-editor"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/with-editor-20220402.1641/with-editor.el"
+;;;;;;  "../../../../.config/emacs/elpa/with-editor-20220402.1641/with-editor.el"
 ;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/with-editor-20220402.1641/with-editor.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/with-editor-20220402.1641/with-editor.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "with-editor" '("server-" "shell-command--shell-command-with-editor-mode" "start-file-process--with-editor-process-filter" "with-editor")))
 
@@ -96,9 +96,9 @@ else like the former.
 
 ;;;***
 
-;;;### (autoloads nil nil ("../../../../../../../home/kim/.config/emacs/elpa/with-editor-20220402.1641/with-editor-autoloads.el"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/with-editor-20220402.1641/with-editor-pkg.el"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/with-editor-20220402.1641/with-editor.el")
+;;;### (autoloads nil nil ("../../../../.config/emacs/elpa/with-editor-20220402.1641/with-editor-autoloads.el"
+;;;;;;  "../../../../.config/emacs/elpa/with-editor-20220402.1641/with-editor-pkg.el"
+;;;;;;  "../../../../.config/emacs/elpa/with-editor-20220402.1641/with-editor.el")
 ;;;;;;  (0 0 0 0))
 
 ;;;***

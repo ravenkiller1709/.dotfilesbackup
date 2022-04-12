@@ -157,7 +157,7 @@
 	;; Bind "s-b" to launch firefox
 	([?\s-b] . (lambda ()
 		     (interactive)
-		     (start-process "" nil "/usr/bin/firefox")))
+		     (start-process "" nil "/usr/local/bin/firefox")))
 
         ;; Bind "s-<f2>" to "slock", a simple X display locker.
         ([s-f2] . (lambda ()

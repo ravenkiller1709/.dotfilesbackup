@@ -6,9 +6,9 @@
                          (or (file-name-directory #$) (car load-path))))
 
 
-;;;### (autoloads nil "visual-fill-column" "../../../../../../../home/kim/.config/emacs/elpa/visual-fill-column-20211118.33/visual-fill-column.el"
+;;;### (autoloads nil "visual-fill-column" "../../../../.config/emacs/elpa/visual-fill-column-20211118.33/visual-fill-column.el"
 ;;;;;;  "dc41a03981b00fa93b896e31fced4dc6")
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/visual-fill-column-20211118.33/visual-fill-column.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/visual-fill-column-20211118.33/visual-fill-column.el
 
 (autoload 'visual-fill-column-mode "visual-fill-column" "\
 Wrap lines according to `fill-column' in `visual-line-mode'.
@@ -58,9 +58,9 @@ value of `split-window-preferred-function' to allow
 \(fn &optional WINDOW)" nil nil)
 
 ;;;### (autoloads "actual autoloads are elsewhere" "visual-fill-column"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/visual-fill-column-20211118.33/visual-fill-column.el"
+;;;;;;  "../../../../.config/emacs/elpa/visual-fill-column-20211118.33/visual-fill-column.el"
 ;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/visual-fill-column-20211118.33/visual-fill-column.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/visual-fill-column-20211118.33/visual-fill-column.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "visual-fill-column" '("turn-on-visual-fill-column-mode" "visual-fill-column-")))
 
@@ -68,8 +68,8 @@ value of `split-window-preferred-function' to allow
 
 ;;;***
 
-;;;### (autoloads nil nil ("../../../../../../../home/kim/.config/emacs/elpa/visual-fill-column-20211118.33/visual-fill-column-autoloads.el"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/visual-fill-column-20211118.33/visual-fill-column.el")
+;;;### (autoloads nil nil ("../../../../.config/emacs/elpa/visual-fill-column-20211118.33/visual-fill-column-autoloads.el"
+;;;;;;  "../../../../.config/emacs/elpa/visual-fill-column-20211118.33/visual-fill-column.el")
 ;;;;;;  (0 0 0 0))
 
 ;;;***

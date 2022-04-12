@@ -6,9 +6,9 @@
                          (or (file-name-directory #$) (car load-path))))
 
 
-;;;### (autoloads nil "dired-open" "../../../../../../../home/kim/.config/emacs/elpa/dired-open-20180922.1113/dired-open.el"
+;;;### (autoloads nil "dired-open" "../../../../.config/emacs/elpa/dired-open-20180922.1113/dired-open.el"
 ;;;;;;  "921ba5dbd07a32e01894ca90d460a86f")
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/dired-open-20180922.1113/dired-open.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/dired-open-20180922.1113/dired-open.el
 
 (autoload 'dired-open-file "dired-open" "\
 Try `dired-open-functions' to open the thing under point.
@@ -21,9 +21,9 @@ With \\[universal-argument], run `dired-find-file' normally.
 
 \(fn &optional ARG)" t nil)
 
-;;;### (autoloads "actual autoloads are elsewhere" "dired-open" "../../../../../../../home/kim/.config/emacs/elpa/dired-open-20180922.1113/dired-open.el"
+;;;### (autoloads "actual autoloads are elsewhere" "dired-open" "../../../../.config/emacs/elpa/dired-open-20180922.1113/dired-open.el"
 ;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/dired-open-20180922.1113/dired-open.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/dired-open-20180922.1113/dired-open.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "dired-open" '("dired-open-")))
 
@@ -31,8 +31,8 @@ With \\[universal-argument], run `dired-find-file' normally.
 
 ;;;***
 
-;;;### (autoloads nil nil ("../../../../../../../home/kim/.config/emacs/elpa/dired-open-20180922.1113/dired-open-autoloads.el"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/dired-open-20180922.1113/dired-open.el")
+;;;### (autoloads nil nil ("../../../../.config/emacs/elpa/dired-open-20180922.1113/dired-open-autoloads.el"
+;;;;;;  "../../../../.config/emacs/elpa/dired-open-20180922.1113/dired-open.el")
 ;;;;;;  (0 0 0 0))
 
 ;;;***

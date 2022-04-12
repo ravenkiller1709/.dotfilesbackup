@@ -6,9 +6,9 @@
                          (or (file-name-directory #$) (car load-path))))
 
 
-;;;### (autoloads nil "orderless" "../../../../../../../home/kim/.config/emacs/elpa/orderless-20220406.1434/orderless.el"
+;;;### (autoloads nil "orderless" "../../../../.config/emacs/elpa/orderless-20220406.1434/orderless.el"
 ;;;;;;  "3ef9a33b42a895b49e55dc60deee0c0d")
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/orderless-20220406.1434/orderless.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/orderless-20220406.1434/orderless.el
 
 (autoload 'orderless-filter "orderless" "\
 Split STRING into components and find entries TABLE matching all.
@@ -44,9 +44,9 @@ a value in `ivy-re-builders-alist'.
 
 \(fn STR)" nil nil)
 
-;;;### (autoloads "actual autoloads are elsewhere" "orderless" "../../../../../../../home/kim/.config/emacs/elpa/orderless-20220406.1434/orderless.el"
+;;;### (autoloads "actual autoloads are elsewhere" "orderless" "../../../../.config/emacs/elpa/orderless-20220406.1434/orderless.el"
 ;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/orderless-20220406.1434/orderless.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/orderless-20220406.1434/orderless.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "orderless" '("orderless-")))
 
@@ -54,9 +54,9 @@ a value in `ivy-re-builders-alist'.
 
 ;;;***
 
-;;;### (autoloads nil nil ("../../../../../../../home/kim/.config/emacs/elpa/orderless-20220406.1434/orderless-autoloads.el"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/orderless-20220406.1434/orderless-pkg.el"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/orderless-20220406.1434/orderless.el")
+;;;### (autoloads nil nil ("../../../../.config/emacs/elpa/orderless-20220406.1434/orderless-autoloads.el"
+;;;;;;  "../../../../.config/emacs/elpa/orderless-20220406.1434/orderless-pkg.el"
+;;;;;;  "../../../../.config/emacs/elpa/orderless-20220406.1434/orderless.el")
 ;;;;;;  (0 0 0 0))
 
 ;;;***

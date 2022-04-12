@@ -6,17 +6,17 @@
                          (or (file-name-directory #$) (car load-path))))
 
 
-;;;### (autoloads "actual autoloads are elsewhere" "f" "../../../../../../../home/kim/.config/emacs/elpa/f-20220405.1534/f.el"
+;;;### (autoloads "actual autoloads are elsewhere" "f" "../../../../.config/emacs/elpa/f-20220405.1534/f.el"
 ;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/f-20220405.1534/f.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/f-20220405.1534/f.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "f" '("f-")))
 
 ;;;***
 
-;;;### (autoloads nil nil ("../../../../../../../home/kim/.config/emacs/elpa/f-20220405.1534/f-autoloads.el"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/f-20220405.1534/f.el")
-;;;;;;  (0 0 0 0))
+;;;### (autoloads nil nil ("../../../../.config/emacs/elpa/f-20220405.1534/f-autoloads.el"
+;;;;;;  "../../../../.config/emacs/elpa/f-20220405.1534/f.el") (0
+;;;;;;  0 0 0))
 
 ;;;***
 

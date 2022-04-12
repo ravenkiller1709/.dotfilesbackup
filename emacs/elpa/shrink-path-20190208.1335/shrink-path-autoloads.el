@@ -7,16 +7,16 @@
 
 
 ;;;### (autoloads "actual autoloads are elsewhere" "shrink-path"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/shrink-path-20190208.1335/shrink-path.el"
+;;;;;;  "../../../../.config/emacs/elpa/shrink-path-20190208.1335/shrink-path.el"
 ;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/shrink-path-20190208.1335/shrink-path.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/shrink-path-20190208.1335/shrink-path.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "shrink-path" '("shrink-path-")))
 
 ;;;***
 
-;;;### (autoloads nil nil ("../../../../../../../home/kim/.config/emacs/elpa/shrink-path-20190208.1335/shrink-path-autoloads.el"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/shrink-path-20190208.1335/shrink-path.el")
+;;;### (autoloads nil nil ("../../../../.config/emacs/elpa/shrink-path-20190208.1335/shrink-path-autoloads.el"
+;;;;;;  "../../../../.config/emacs/elpa/shrink-path-20190208.1335/shrink-path.el")
 ;;;;;;  (0 0 0 0))
 
 ;;;***

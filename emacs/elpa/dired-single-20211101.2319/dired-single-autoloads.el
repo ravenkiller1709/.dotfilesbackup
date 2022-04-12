@@ -6,9 +6,9 @@
                          (or (file-name-directory #$) (car load-path))))
 
 
-;;;### (autoloads nil "dired-single" "../../../../../../../home/kim/.config/emacs/elpa/dired-single-20211101.2319/dired-single.el"
+;;;### (autoloads nil "dired-single" "../../../../.config/emacs/elpa/dired-single-20211101.2319/dired-single.el"
 ;;;;;;  "4f65bd72d4287829ea0907cccae632ec")
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/dired-single-20211101.2319/dired-single.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/dired-single-20211101.2319/dired-single.el
 
 (autoload 'dired-single-buffer "dired-single" "\
 Visit selected directory in current buffer.
@@ -62,9 +62,9 @@ Like `dired-up-directory' but with `dired-single-buffer'.
 \(fn &optional OTHER-WINDOW)" t nil)
 
 ;;;### (autoloads "actual autoloads are elsewhere" "dired-single"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/dired-single-20211101.2319/dired-single.el"
+;;;;;;  "../../../../.config/emacs/elpa/dired-single-20211101.2319/dired-single.el"
 ;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/dired-single-20211101.2319/dired-single.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/dired-single-20211101.2319/dired-single.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "dired-single" '("dired-single-")))
 
@@ -72,8 +72,8 @@ Like `dired-up-directory' but with `dired-single-buffer'.
 
 ;;;***
 
-;;;### (autoloads nil nil ("../../../../../../../home/kim/.config/emacs/elpa/dired-single-20211101.2319/dired-single-autoloads.el"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/dired-single-20211101.2319/dired-single.el")
+;;;### (autoloads nil nil ("../../../../.config/emacs/elpa/dired-single-20211101.2319/dired-single-autoloads.el"
+;;;;;;  "../../../../.config/emacs/elpa/dired-single-20211101.2319/dired-single.el")
 ;;;;;;  (0 0 0 0))
 
 ;;;***

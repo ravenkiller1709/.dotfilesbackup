@@ -7,17 +7,17 @@
 
 
 ;;;### (autoloads "actual autoloads are elsewhere" "magit-section"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/magit-section-20220329.1154/magit-section.el"
+;;;;;;  "../../../../.config/emacs/elpa/magit-section-20220329.1154/magit-section.el"
 ;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/magit-section-20220329.1154/magit-section.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/magit-section-20220329.1154/magit-section.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "magit-section" '("isearch-clean-overlays@magit-mode" "magit-")))
 
 ;;;***
 
-;;;### (autoloads nil nil ("../../../../../../../home/kim/.config/emacs/elpa/magit-section-20220329.1154/magit-section-autoloads.el"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/magit-section-20220329.1154/magit-section-pkg.el"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/magit-section-20220329.1154/magit-section.el")
+;;;### (autoloads nil nil ("../../../../.config/emacs/elpa/magit-section-20220329.1154/magit-section-autoloads.el"
+;;;;;;  "../../../../.config/emacs/elpa/magit-section-20220329.1154/magit-section-pkg.el"
+;;;;;;  "../../../../.config/emacs/elpa/magit-section-20220329.1154/magit-section.el")
 ;;;;;;  (0 0 0 0))
 
 ;;;***

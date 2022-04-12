@@ -7,16 +7,16 @@
 
 
 ;;;### (autoloads "actual autoloads are elsewhere" "dired-hacks-utils"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/dired-hacks-utils-20201005.2318/dired-hacks-utils.el"
+;;;;;;  "../../../../.config/emacs/elpa/dired-hacks-utils-20201005.2318/dired-hacks-utils.el"
 ;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/dired-hacks-utils-20201005.2318/dired-hacks-utils.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/dired-hacks-utils-20201005.2318/dired-hacks-utils.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "dired-hacks-utils" '("dired-")))
 
 ;;;***
 
-;;;### (autoloads nil nil ("../../../../../../../home/kim/.config/emacs/elpa/dired-hacks-utils-20201005.2318/dired-hacks-utils-autoloads.el"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/dired-hacks-utils-20201005.2318/dired-hacks-utils.el")
+;;;### (autoloads nil nil ("../../../../.config/emacs/elpa/dired-hacks-utils-20201005.2318/dired-hacks-utils-autoloads.el"
+;;;;;;  "../../../../.config/emacs/elpa/dired-hacks-utils-20201005.2318/dired-hacks-utils.el")
 ;;;;;;  (0 0 0 0))
 
 ;;;***

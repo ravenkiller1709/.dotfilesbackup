@@ -6,9 +6,9 @@
                          (or (file-name-directory #$) (car load-path))))
 
 
-;;;### (autoloads nil "all-the-icons-dired" "../../../../../../../home/kim/.config/emacs/elpa/all-the-icons-dired-20220304.1638/all-the-icons-dired.el"
+;;;### (autoloads nil "all-the-icons-dired" "../../../../.config/emacs/elpa/all-the-icons-dired-20220304.1638/all-the-icons-dired.el"
 ;;;;;;  "e0efac5817d8d564330a9d09986177ed")
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/all-the-icons-dired-20220304.1638/all-the-icons-dired.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/all-the-icons-dired-20220304.1638/all-the-icons-dired.el
 
 (autoload 'all-the-icons-dired-mode "all-the-icons-dired" "\
 Display all-the-icons icon for each file in a dired buffer.
@@ -21,9 +21,9 @@ and toggle it if ARG is `toggle'; disable the mode otherwise.
 \(fn &optional ARG)" t nil)
 
 ;;;### (autoloads "actual autoloads are elsewhere" "all-the-icons-dired"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/all-the-icons-dired-20220304.1638/all-the-icons-dired.el"
+;;;;;;  "../../../../.config/emacs/elpa/all-the-icons-dired-20220304.1638/all-the-icons-dired.el"
 ;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/all-the-icons-dired-20220304.1638/all-the-icons-dired.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/all-the-icons-dired-20220304.1638/all-the-icons-dired.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "all-the-icons-dired" '("all-the-icons-dired-")))
 
@@ -31,8 +31,8 @@ and toggle it if ARG is `toggle'; disable the mode otherwise.
 
 ;;;***
 
-;;;### (autoloads nil nil ("../../../../../../../home/kim/.config/emacs/elpa/all-the-icons-dired-20220304.1638/all-the-icons-dired-autoloads.el"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/all-the-icons-dired-20220304.1638/all-the-icons-dired.el")
+;;;### (autoloads nil nil ("../../../../.config/emacs/elpa/all-the-icons-dired-20220304.1638/all-the-icons-dired-autoloads.el"
+;;;;;;  "../../../../.config/emacs/elpa/all-the-icons-dired-20220304.1638/all-the-icons-dired.el")
 ;;;;;;  (0 0 0 0))
 
 ;;;***

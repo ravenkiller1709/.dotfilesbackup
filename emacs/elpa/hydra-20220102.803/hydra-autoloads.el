@@ -6,9 +6,9 @@
                          (or (file-name-directory #$) (car load-path))))
 
 
-;;;### (autoloads nil "hydra" "../../../../../../../home/kim/.config/emacs/elpa/hydra-20220102.803/hydra.el"
+;;;### (autoloads nil "hydra" "../../../../.config/emacs/elpa/hydra-20220102.803/hydra.el"
 ;;;;;;  "7b5a0d207ecaab0cd8f035d29bf260a4")
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/hydra-20220102.803/hydra.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/hydra-20220102.803/hydra.el
 
 (autoload 'defhydra "hydra" "\
 Create a Hydra - a family of functions with prefix NAME.
@@ -68,9 +68,9 @@ result of `defhydra'.
 
 (function-put 'defhydra 'doc-string-elt '3)
 
-;;;### (autoloads "actual autoloads are elsewhere" "hydra" "../../../../../../../home/kim/.config/emacs/elpa/hydra-20220102.803/hydra.el"
+;;;### (autoloads "actual autoloads are elsewhere" "hydra" "../../../../.config/emacs/elpa/hydra-20220102.803/hydra.el"
 ;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/hydra-20220102.803/hydra.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/hydra-20220102.803/hydra.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "hydra" '("defhydra" "hydra-")))
 
@@ -79,27 +79,27 @@ result of `defhydra'.
 ;;;***
 
 ;;;### (autoloads "actual autoloads are elsewhere" "hydra-examples"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/hydra-20220102.803/hydra-examples.el"
+;;;;;;  "../../../../.config/emacs/elpa/hydra-20220102.803/hydra-examples.el"
 ;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/hydra-20220102.803/hydra-examples.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/hydra-20220102.803/hydra-examples.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "hydra-examples" '("hydra-" "org-agenda-cts" "whitespace-mode")))
 
 ;;;***
 
-;;;### (autoloads "actual autoloads are elsewhere" "hydra-ox" "../../../../../../../home/kim/.config/emacs/elpa/hydra-20220102.803/hydra-ox.el"
+;;;### (autoloads "actual autoloads are elsewhere" "hydra-ox" "../../../../.config/emacs/elpa/hydra-20220102.803/hydra-ox.el"
 ;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/hydra-20220102.803/hydra-ox.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/hydra-20220102.803/hydra-ox.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "hydra-ox" '("hydra-ox")))
 
 ;;;***
 
-;;;### (autoloads nil nil ("../../../../../../../home/kim/.config/emacs/elpa/hydra-20220102.803/hydra-autoloads.el"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/hydra-20220102.803/hydra-examples.el"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/hydra-20220102.803/hydra-ox.el"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/hydra-20220102.803/hydra-pkg.el"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/hydra-20220102.803/hydra.el")
+;;;### (autoloads nil nil ("../../../../.config/emacs/elpa/hydra-20220102.803/hydra-autoloads.el"
+;;;;;;  "../../../../.config/emacs/elpa/hydra-20220102.803/hydra-examples.el"
+;;;;;;  "../../../../.config/emacs/elpa/hydra-20220102.803/hydra-ox.el"
+;;;;;;  "../../../../.config/emacs/elpa/hydra-20220102.803/hydra-pkg.el"
+;;;;;;  "../../../../.config/emacs/elpa/hydra-20220102.803/hydra.el")
 ;;;;;;  (0 0 0 0))
 
 ;;;***

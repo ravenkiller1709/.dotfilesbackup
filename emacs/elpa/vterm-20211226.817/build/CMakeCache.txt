@@ -15,10 +15,10 @@
 ########################
 
 //Path to a program.
-CMAKE_ADDR2LINE:FILEPATH=/usr/bin/llvm-addr2line
+CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 
 //Path to a program.
-CMAKE_AR:FILEPATH=/usr/bin/llvm-ar
+CMAKE_AR:FILEPATH=/usr/bin/ar
 
 //Build type (default RelWithDebInfo)
 CMAKE_BUILD_TYPE:STRING=RelWithDebInfo
@@ -30,10 +30,10 @@ CMAKE_COLOR_MAKEFILE:BOOL=ON
 CMAKE_C_COMPILER:FILEPATH=/usr/bin/cc
 
 //LLVM archiver
-CMAKE_C_COMPILER_AR:FILEPATH=/usr/bin/llvm-ar
+CMAKE_C_COMPILER_AR:FILEPATH=CMAKE_C_COMPILER_AR-NOTFOUND
 
 //Generate index for LLVM archive
-CMAKE_C_COMPILER_RANLIB:FILEPATH=/usr/bin/llvm-ranlib
+CMAKE_C_COMPILER_RANLIB:FILEPATH=CMAKE_C_COMPILER_RANLIB-NOTFOUND
 
 //Flags used by the C compiler during all build types.
 CMAKE_C_FLAGS:STRING=
@@ -75,7 +75,7 @@ CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=
 CMAKE_INSTALL_PREFIX:PATH=/usr/local
 
 //Path to a program.
-CMAKE_LINKER:FILEPATH=/usr/bin/ld.lld
+CMAKE_LINKER:FILEPATH=/usr/bin/ld
 
 //Path to a program.
 CMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/make
@@ -101,13 +101,13 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
-CMAKE_NM:FILEPATH=/usr/bin/llvm-nm
+CMAKE_NM:FILEPATH=/usr/bin/nm
 
 //Path to a program.
 CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 
 //Path to a program.
-CMAKE_OBJDUMP:FILEPATH=/usr/bin/llvm-objdump
+CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
 CMAKE_PROJECT_DESCRIPTION:STATIC=
@@ -119,7 +119,7 @@ CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 CMAKE_PROJECT_NAME:STATIC=emacs-libvterm
 
 //Path to a program.
-CMAKE_RANLIB:FILEPATH=/usr/bin/llvm-ranlib
+CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
 
 //Path to a program.
 CMAKE_READELF:FILEPATH=/usr/bin/readelf
@@ -184,16 +184,13 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 LIBVTERM_INCLUDE_DIR:PATH=/usr/local/include
 
 //Path to a library.
-LIBVTERM_LIBRARY:FILEPATH=/usr/local/lib/libvterm.so
+LIBVTERM_LIBRARY:FILEPATH=/usr/local/lib/libvterm.so.1.0
 
 //Use system libvterm instead of the vendored version.
 USE_SYSTEM_LIBVTERM:BOOL=ON
 
 //Value Computed by CMake
 emacs-libvterm_BINARY_DIR:STATIC=/home/kim/.config/emacs/elpa/vterm-20211226.817/build
-
-//Value Computed by CMake
-emacs-libvterm_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 emacs-libvterm_SOURCE_DIR:STATIC=/home/kim/.config/emacs/elpa/vterm-20211226.817
@@ -215,9 +212,9 @@ CMAKE_CACHEFILE_DIR:INTERNAL=/home/kim/.config/emacs/elpa/vterm-20211226.817/bui
 //Major version of cmake used to create the current loaded cache
 CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 //Minor version of cmake used to create the current loaded cache
-CMAKE_CACHE_MINOR_VERSION:INTERNAL=22
+CMAKE_CACHE_MINOR_VERSION:INTERNAL=20
 //Patch version of cmake used to create the current loaded cache
-CMAKE_CACHE_PATCH_VERSION:INTERNAL=2
+CMAKE_CACHE_PATCH_VERSION:INTERNAL=3
 //ADVANCED property for variable: CMAKE_COLOR_MAKEFILE
 CMAKE_COLOR_MAKEFILE-ADVANCED:INTERNAL=1
 //Path to CMake executable.

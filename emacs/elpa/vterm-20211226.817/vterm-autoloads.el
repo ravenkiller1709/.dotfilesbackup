@@ -6,9 +6,9 @@
                          (or (file-name-directory #$) (car load-path))))
 
 
-;;;### (autoloads nil "vterm" "../../../../../../../home/kim/.config/emacs/elpa/vterm-20211226.817/vterm.el"
+;;;### (autoloads nil "vterm" "../../../../.config/emacs/elpa/vterm-20211226.817/vterm.el"
 ;;;;;;  "362851689dacbb833f15e34e2bce03d3")
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/vterm-20211226.817/vterm.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/vterm-20211226.817/vterm.el
 
 (autoload 'vterm-module-compile "vterm" "\
 Compile vterm-module." t nil)
@@ -68,9 +68,9 @@ value of `vterm-buffer-name'.
 
 \(fn &optional ARG)" t nil)
 
-;;;### (autoloads "actual autoloads are elsewhere" "vterm" "../../../../../../../home/kim/.config/emacs/elpa/vterm-20211226.817/vterm.el"
+;;;### (autoloads "actual autoloads are elsewhere" "vterm" "../../../../.config/emacs/elpa/vterm-20211226.817/vterm.el"
 ;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/vterm-20211226.817/vterm.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/vterm-20211226.817/vterm.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "vterm" '("vterm-")))
 
@@ -78,9 +78,9 @@ value of `vterm-buffer-name'.
 
 ;;;***
 
-;;;### (autoloads nil nil ("../../../../../../../home/kim/.config/emacs/elpa/vterm-20211226.817/vterm-autoloads.el"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/vterm-20211226.817/vterm-pkg.el"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/vterm-20211226.817/vterm.el")
+;;;### (autoloads nil nil ("../../../../.config/emacs/elpa/vterm-20211226.817/vterm-autoloads.el"
+;;;;;;  "../../../../.config/emacs/elpa/vterm-20211226.817/vterm-pkg.el"
+;;;;;;  "../../../../.config/emacs/elpa/vterm-20211226.817/vterm.el")
 ;;;;;;  (0 0 0 0))
 
 ;;;***

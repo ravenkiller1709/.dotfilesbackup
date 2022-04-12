@@ -6,9 +6,9 @@
                          (or (file-name-directory #$) (car load-path))))
 
 
-;;;### (autoloads nil "exwm" "../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm.el"
+;;;### (autoloads nil "exwm" "../../../../.config/emacs/elpa/exwm-0.26/exwm.el"
 ;;;;;;  "906b96d9d96f32b06f20983745e1931a")
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/exwm-0.26/exwm.el
 
 (autoload 'exwm-restart "exwm" "\
 Restart EXWM." t nil)
@@ -26,9 +26,9 @@ Enable/Disable EXWM.
 
 \(fn &optional UNDO)" nil nil)
 
-;;;### (autoloads "actual autoloads are elsewhere" "exwm" "../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm.el"
+;;;### (autoloads "actual autoloads are elsewhere" "exwm" "../../../../.config/emacs/elpa/exwm-0.26/exwm.el"
 ;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/exwm-0.26/exwm.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "exwm" '("exwm-")))
 
@@ -36,34 +36,34 @@ Enable/Disable EXWM.
 
 ;;;***
 
-;;;### (autoloads "actual autoloads are elsewhere" "exwm-cm" "../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-cm.el"
+;;;### (autoloads "actual autoloads are elsewhere" "exwm-cm" "../../../../.config/emacs/elpa/exwm-0.26/exwm-cm.el"
 ;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-cm.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/exwm-0.26/exwm-cm.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "exwm-cm" '("exwm-cm-")))
 
 ;;;***
 
 ;;;### (autoloads "actual autoloads are elsewhere" "exwm-config"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-config.el"
+;;;;;;  "../../../../.config/emacs/elpa/exwm-0.26/exwm-config.el"
 ;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-config.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/exwm-0.26/exwm-config.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "exwm-config" '("exwm-config-")))
 
 ;;;***
 
-;;;### (autoloads "actual autoloads are elsewhere" "exwm-core" "../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-core.el"
+;;;### (autoloads "actual autoloads are elsewhere" "exwm-core" "../../../../.config/emacs/elpa/exwm-0.26/exwm-core.el"
 ;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-core.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/exwm-0.26/exwm-core.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "exwm-core" '("exwm-")))
 
 ;;;***
 
-;;;### (autoloads nil "exwm-floating" "../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-floating.el"
+;;;### (autoloads nil "exwm-floating" "../../../../.config/emacs/elpa/exwm-0.26/exwm-floating.el"
 ;;;;;;  "499d8c0edc79738d8a6c873c8b5111ce")
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-floating.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/exwm-0.26/exwm-floating.el
 
 (autoload 'exwm-floating-toggle-floating "exwm-floating" "\
 Toggle the current window between floating and non-floating states." t nil)
@@ -72,9 +72,9 @@ Toggle the current window between floating and non-floating states." t nil)
 Hide the current floating X window (which would show again when selected)." t nil)
 
 ;;;### (autoloads "actual autoloads are elsewhere" "exwm-floating"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-floating.el"
+;;;;;;  "../../../../.config/emacs/elpa/exwm-0.26/exwm-floating.el"
 ;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-floating.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/exwm-0.26/exwm-floating.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "exwm-floating" '("exwm-floating-")))
 
@@ -82,9 +82,9 @@ Hide the current floating X window (which would show again when selected)." t ni
 
 ;;;***
 
-;;;### (autoloads nil "exwm-input" "../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-input.el"
+;;;### (autoloads nil "exwm-input" "../../../../.config/emacs/elpa/exwm-0.26/exwm-input.el"
 ;;;;;;  "72606ff054d6c9ada4bbaf56440a987f")
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-input.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/exwm-0.26/exwm-input.el
 
 (autoload 'exwm-input-set-key "exwm-input" "\
 Set a global key binding.
@@ -142,9 +142,9 @@ One use is to access the keymap bound to KEYS (as prefix keys) in char-mode.
 
 \(fn KEYS)" nil t)
 
-;;;### (autoloads "actual autoloads are elsewhere" "exwm-input" "../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-input.el"
+;;;### (autoloads "actual autoloads are elsewhere" "exwm-input" "../../../../.config/emacs/elpa/exwm-0.26/exwm-input.el"
 ;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-input.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/exwm-0.26/exwm-input.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "exwm-input" '("exwm-input-")))
 
@@ -152,9 +152,9 @@ One use is to access the keymap bound to KEYS (as prefix keys) in char-mode.
 
 ;;;***
 
-;;;### (autoloads nil "exwm-layout" "../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-layout.el"
+;;;### (autoloads nil "exwm-layout" "../../../../.config/emacs/elpa/exwm-0.26/exwm-layout.el"
 ;;;;;;  "c4bc351f2a34a039e1b06b5b58b94e8d")
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-layout.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/exwm-0.26/exwm-layout.el
 
 (autoload 'exwm-layout-set-fullscreen "exwm-layout" "\
 Make window ID fullscreen.
@@ -215,9 +215,9 @@ Show mode-line." t nil)
 Toggle the display of mode-line." t nil)
 
 ;;;### (autoloads "actual autoloads are elsewhere" "exwm-layout"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-layout.el"
+;;;;;;  "../../../../.config/emacs/elpa/exwm-0.26/exwm-layout.el"
 ;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-layout.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/exwm-0.26/exwm-layout.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "exwm-layout" '("exwm-layout-")))
 
@@ -226,24 +226,24 @@ Toggle the display of mode-line." t nil)
 ;;;***
 
 ;;;### (autoloads "actual autoloads are elsewhere" "exwm-manage"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-manage.el"
+;;;;;;  "../../../../.config/emacs/elpa/exwm-0.26/exwm-manage.el"
 ;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-manage.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/exwm-0.26/exwm-manage.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "exwm-manage" '("exwm-manage-")))
 
 ;;;***
 
-;;;### (autoloads nil "exwm-randr" "../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-randr.el"
+;;;### (autoloads nil "exwm-randr" "../../../../.config/emacs/elpa/exwm-0.26/exwm-randr.el"
 ;;;;;;  "f71c48533d19b0da552ac72e10f39948")
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-randr.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/exwm-0.26/exwm-randr.el
 
 (autoload 'exwm-randr-refresh "exwm-randr" "\
 Refresh workspaces according to the updated RandR info." t nil)
 
-;;;### (autoloads "actual autoloads are elsewhere" "exwm-randr" "../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-randr.el"
+;;;### (autoloads "actual autoloads are elsewhere" "exwm-randr" "../../../../.config/emacs/elpa/exwm-0.26/exwm-randr.el"
 ;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-randr.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/exwm-0.26/exwm-randr.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "exwm-randr" '("exwm-randr-")))
 
@@ -252,17 +252,17 @@ Refresh workspaces according to the updated RandR info." t nil)
 ;;;***
 
 ;;;### (autoloads "actual autoloads are elsewhere" "exwm-systemtray"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-systemtray.el"
+;;;;;;  "../../../../.config/emacs/elpa/exwm-0.26/exwm-systemtray.el"
 ;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-systemtray.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/exwm-0.26/exwm-systemtray.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "exwm-systemtray" '("exwm-systemtray-" "xcb:systemtray:-ClientMessage")))
 
 ;;;***
 
-;;;### (autoloads nil "exwm-workspace" "../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-workspace.el"
+;;;### (autoloads nil "exwm-workspace" "../../../../.config/emacs/elpa/exwm-0.26/exwm-workspace.el"
 ;;;;;;  "f6ada3f21d144ace7609df66811cfc94")
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-workspace.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/exwm-0.26/exwm-workspace.el
 
 (autoload 'exwm-workspace--get-geometry "exwm-workspace" "\
 Return the geometry of frame FRAME.
@@ -336,9 +336,9 @@ Detach the minibuffer so that it automatically hides." t nil)
 Attach the minibuffer if it's detached, or detach it if it's attached." t nil)
 
 ;;;### (autoloads "actual autoloads are elsewhere" "exwm-workspace"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-workspace.el"
+;;;;;;  "../../../../.config/emacs/elpa/exwm-0.26/exwm-workspace.el"
 ;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-workspace.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/exwm-0.26/exwm-workspace.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "exwm-workspace" '("exwm-workspace-")))
 
@@ -346,28 +346,24 @@ Attach the minibuffer if it's detached, or detach it if it's attached." t nil)
 
 ;;;***
 
-;;;### (autoloads "actual autoloads are elsewhere" "exwm-xim" "../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-xim.el"
+;;;### (autoloads "actual autoloads are elsewhere" "exwm-xim" "../../../../.config/emacs/elpa/exwm-0.26/exwm-xim.el"
 ;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-xim.el
+;;; Generated autoloads from ../../../../.config/emacs/elpa/exwm-0.26/exwm-xim.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "exwm-xim" '("exwm-xim-")))
 
 ;;;***
 
-;;;### (autoloads nil nil ("../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-autoloads.el"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-cm.el"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-config.el"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-core.el"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-floating.el"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-input.el"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-layout.el"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-manage.el"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-pkg.el"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-randr.el"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-systemtray.el"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-workspace.el"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm-xim.el"
-;;;;;;  "../../../../../../../home/kim/.config/emacs/elpa/exwm-0.26/exwm.el")
+;;;### (autoloads nil nil ("../../../../.config/emacs/elpa/exwm-0.26/exwm-autoloads.el"
+;;;;;;  "../../../../.config/emacs/elpa/exwm-0.26/exwm-cm.el" "../../../../.config/emacs/elpa/exwm-0.26/exwm-config.el"
+;;;;;;  "../../../../.config/emacs/elpa/exwm-0.26/exwm-core.el" "../../../../.config/emacs/elpa/exwm-0.26/exwm-floating.el"
+;;;;;;  "../../../../.config/emacs/elpa/exwm-0.26/exwm-input.el"
+;;;;;;  "../../../../.config/emacs/elpa/exwm-0.26/exwm-layout.el"
+;;;;;;  "../../../../.config/emacs/elpa/exwm-0.26/exwm-manage.el"
+;;;;;;  "../../../../.config/emacs/elpa/exwm-0.26/exwm-pkg.el" "../../../../.config/emacs/elpa/exwm-0.26/exwm-randr.el"
+;;;;;;  "../../../../.config/emacs/elpa/exwm-0.26/exwm-systemtray.el"
+;;;;;;  "../../../../.config/emacs/elpa/exwm-0.26/exwm-workspace.el"
+;;;;;;  "../../../../.config/emacs/elpa/exwm-0.26/exwm-xim.el" "../../../../.config/emacs/elpa/exwm-0.26/exwm.el")
 ;;;;;;  (0 0 0 0))
 
 ;;;***

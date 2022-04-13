@@ -137,7 +137,8 @@
 
 (display-battery-mode 1)
 
-(display-time-mode nil)
+;;(display-time-mode nil)
+;;(setq display-time-24hr-format nil)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;; Vertico
@@ -364,8 +365,8 @@
 ;;;;;;;; Dired MODE
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(cond ((eq system-type 'berkeley-unix)
-          (setq insert-directory-program "/usr/local/bin/gls")))
+;;(cond ((eq system-type 'berkeley-unix)
+;;          (setq insert-directory-program "/usr/local/bin/gls")))
 
 (use-package dired
   :ensure nil

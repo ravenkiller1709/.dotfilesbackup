@@ -13,7 +13,10 @@
 
 ;; Turn on `display-time-mode' if you don't use an external bar.
 (setq display-time-default-load-average nil)
+
 (display-time-mode t)
+
+(setq display-time-24hr-format 1)
 
 ;; You are strongly encouraged to enable something like `ido-mode' to alter
 ;; the default behavior of 'C-x b', or you will take great pains to switch
@@ -95,6 +98,20 @@
               (exwm-workspace-rename-buffer exwm-title))))
 
 
+
+  ;; NOTE: Uncomment the following two options if you want window buffers
+  ;;       to be available on all workspaces!
+
+  ;; Automatically move EXWM buffer to current workspace when selected
+  (setq exwm-layout-show-all-buffers t)
+
+  ;; Display all EXWM buffers in every workspace buffer list
+  (setq exwm-workspace-show-all-buffers t)
+
+  ;; NOTE: Uncomment this option if you want to detach the minibuffer!
+  ;; Detach the minibuffer (show it with exwm-workspace-toggle-minibuffer)
+  (setq exwm-workspace-minibuffer-position 'top)
+
 ;; Set the screen resolution (update this to be the correct resolution for your screen!)
   (require 'exwm-randr)
   (exwm-randr-enable)
@@ -157,7 +174,11 @@
 	;; Bind "s-b" to launch firefox
 	([?\s-b] . (lambda ()
 		     (interactive)
-		     (start-process "" nil "/usr/local/bin/firefox")))
+		     (start-process "" nil "/usr/bin/firefox")))
+
+	([?\s-z] . (lambda ()
+		     (interactive)
+		     (start-process "" nil "/usr/bin/google-chrome-stable")))
 
         ;; Bind "s-<f2>" to "slock", a simple X display locker.
         ([s-f2] . (lambda ()

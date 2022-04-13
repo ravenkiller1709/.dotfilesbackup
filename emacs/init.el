@@ -31,6 +31,16 @@
 
 (set-fringe-mode 10)
 
+;; Keybindings
+(global-set-key (kbd "<f5>") 'revert-buffer)
+(global-set-key (kbd "<f6>") 'org-export-dispatch)
+(global-set-key (kbd "<f7>") 'eshell)
+(global-set-key (kbd "<f8>") 'magit)
+
+;; Misc
+(fset 'yes-or-no-p 'y-or-n-p)
+(setenv "HOME" "/home/kim/")
+
 ;; Set the default font
 (set-face-attribute 'default nil
                     :family "Source Code Pro"

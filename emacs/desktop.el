@@ -2,7 +2,7 @@
   (interactive)
   ;; NOTE: You will need to update this to a valid background path!
   (start-process-shell-command
-      "feh" nil  "feh --bg-scale ~/.baggrunde/0040.jpg"))
+      "feh" nil  "feh --bg-scale ~/.baggrunde/0003.jpg"))
 
 ;; Disable menu-bar, tool-bar and scroll-bar to increase the usable space.
 (menu-bar-mode -1)

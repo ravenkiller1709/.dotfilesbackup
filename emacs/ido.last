@@ -14,8 +14,8 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/kim/.config/emacs/"
  "/home/kim/.dotfiles/emacs/"
+ "/home/kim/.config/emacs/"
  "/home/kim/Dokumenter/"
  "/home/kim/.config/emacs/exwm/"
  "/home/kim/"
@@ -33,8 +33,8 @@
 
 ;; ----- ido-work-file-list -----
 (
- "init.el"
  "desktop.el"
+ "init.el"
  "testtable.org"
  "battery.el"
  "hallo.theme.el"
@@ -47,13 +47,13 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/kim/.dotfiles/emacs/" (25174 38361 966092 261000) "ido.last" "ido.last~" "init.el" "init.el~" "themes/" "hallo.theme.el-bak" "tutorial/" "battery.el" "auto-save-list/" "transient/" "history" ".last-package-update-day" "elpa/" "tramp" "network-security.data" "hallo.theme.el~" "exwm/" "desktop.el-bak" "desktop.el" ".mbsyncrc~" ".mbsyncrc" ".authinfo" "../" "./")
+
+ ("/home/kim/.config/emacs/" (25174 35862 606209 170000) "ido.last" "ido.last~" "init.el" "init.el~" "themes/" "hallo.theme.el-bak" "tutorial/" "battery.el" "auto-save-list/" "transient/" "history" ".last-package-update-day" "elpa/" "tramp" "network-security.data" "hallo.theme.el~" "exwm/" "desktop.el-bak" "desktop.el" ".mbsyncrc~" ".mbsyncrc" ".authinfo" "../" "./")
+
  ("/home/kim/.ssh/" (25174 29627 506501 958000) "known_hosts" "known_hosts.old" "id_rsa.pub" "id_rsa" "../" "./")
 
  ("/home/kim/Dokumenter/" (25174 30035 273149 535000) "testtable.org" "testtable.org~" "testtable.html" "testtable.html~" "literature-epub/" "Ebooks_Collection/" "ebooks/" "testtable.pdf" "testtable.tex" "../" "./")
-
- ("/home/kim/.config/emacs/" (25174 30054 916481 947000) "ido.last" "ido.last~" "battery.el" "#init.el#" "auto-save-list/" "transient/" "history" "init.el" ".last-package-update-day" "elpa/" "tramp" "network-security.data" "hallo.theme.el~" "hallo.theme.el" "exwm/" "desktop.el-bak" "desktop.el" ".mbsyncrc~" ".mbsyncrc" ".authinfo" "../" "./")
-
- ("/home/kim/.dotfiles/emacs/" (25174 30054 916481 947000) "ido.last" "ido.last~" "battery.el" "#init.el#" "auto-save-list/" "transient/" "history" "init.el" ".last-package-update-day" "elpa/" "tramp" "network-security.data" "hallo.theme.el~" "hallo.theme.el" "exwm/" "desktop.el-bak" "desktop.el" ".mbsyncrc~" ".mbsyncrc" ".authinfo" "../" "./")
 
  ("/home/kim/" (25174 29142 9858 12000) ".ssh/" ".gitconfig" ".lyrics/" ".pki/" ".fehbg" ".authinfo.gpg" ".gnupg/" "Mail/" "dots/" ".scripts/" ".mbsyncrc" ".Xresources" ".baggrunde/" ".dotfiles/" ".local/" "Videoklip/" "Billeder/" "Musik/" "Dokumenter/" "Offentligt/" "Skabeloner/" "Hentet/" "Skrivebord/" ".bash_history" ".viminfo" ".cache/" ".config/" ".bashrc" ".bash_profile" ".bash_logout" "../" "./")
 

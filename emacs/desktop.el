@@ -110,7 +110,7 @@
 
   ;; NOTE: Uncomment this option if you want to detach the minibuffer!
   ;; Detach the minibuffer (show it with exwm-workspace-toggle-minibuffer)
-  (setq exwm-workspace-minibuffer-position 'top)
+  (setq exwm-workspace-minibuffer-position 'bottom)
 
 ;; Set the screen resolution (update this to be the correct resolution for your screen!)
   (require 'exwm-randr)

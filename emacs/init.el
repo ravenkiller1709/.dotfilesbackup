@@ -31,6 +31,10 @@
 
 (set-fringe-mode 10)
 
+;; Display line numbers relative to current place
+(global-display-line-numbers-mode)
+(setq display-line-numbers-type 'relative)
+
 ;; Keybindings
 (global-set-key (kbd "<f5>") 'revert-buffer)
 (global-set-key (kbd "<f6>") 'org-export-dispatch)
@@ -114,20 +118,27 @@
 ;;;;;;;; DOOM THEMES
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
   
-(use-package doom-themes
-  :ensure t
+;;(use-package doom-themes
+;;  :ensure t
+;;  :config
+;;  ;; Global settings (defaults)
+;;  (setq doom-themes-enable-bold t    ; if nil, bold is universally disabled
+;;        doom-themes-enable-italic t) ; if nil, italics is universally disabled
+;;  (load-theme 'doom-solarized-dark t)1)
+;;
+;;;; Enable flashing mode-line on errors
+;; (doom-themes-visual-bell-config)
+;;
+;;;; Enable custom neotree theme
+;; (doom-themes-neotree-config)  ; all-the-icons fonts must be installed!
+
+(use-package dracula-theme
   :config
-  ;; Global settings (defaults)
-  (setq doom-themes-enable-bold t    ; if nil, bold is universally disabled
-        doom-themes-enable-italic t) ; if nil, italics is universally disabled
-  (load-theme 'doom-solarized-dark t)1)
+  (load-theme 'darcula t)
+  :ensure t)
 
-;; Enable flashing mode-line on errors
- (doom-themes-visual-bell-config)
-
-;; Enable custom neotree theme
- (doom-themes-neotree-config)  ; all-the-icons fonts must be installed!
-
+;;(add-to-list 'custom-theme-load-path "~/.dotfiles/emacs/themes/") ;; for themes loaded locally
+;;(load-theme 'ubuntu-theme t)
 
 (use-package doom-modeline
   :ensure t
@@ -214,6 +225,16 @@
 
   ;; Enable recursive minibuffers
   (setq enable-recursive-minibuffers t))
+
+;; Optionally use the `orderless' completion style.
+(use-package orderless
+  :init
+  ;; Configure a custom style dispatcher (see the Consult wiki)
+  ;; (setq orderless-style-dispatchers '(+orderless-dispatch)
+  ;;       orderless-component-separator #'orderless-escapable-split-on-space)
+  (setq completion-styles '(orderless basic)
+        completion-category-defaults nil
+        completion-category-overrides '((file (styles partial-completion)))))
 
 (use-package hydra
   :defer t)
@@ -466,7 +487,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(vterm exwm dired-hide-dotfiles dired-open all-the-icons-dired dired-single eshell-git-prompt visual-fill-column org-bullets hydra orderless vertico doom-modeline doom-themes magit auto-package-update use-package)))
+   '(dracula-theme darcula-theme vterm exwm dired-hide-dotfiles dired-open all-the-icons-dired dired-single eshell-git-prompt visual-fill-column org-bullets hydra orderless vertico doom-modeline doom-themes magit auto-package-update use-package)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
